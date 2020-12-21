@@ -113,14 +113,18 @@
     <ClCompile Include="BubbleSorting.cpp" />
     <ClCompile Include="InsertSorting.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MergeSorting.cpp" />
     <ClCompile Include="SelectSorting.cpp" />
+    <ClCompile Include="ShellSorting.cpp" />
     <ClCompile Include="Sort.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BubbleSorting.h" />
     <ClInclude Include="global.h" />
     <ClInclude Include="InsertSorting.h" />
+    <ClInclude Include="MergeSorting.h" />
     <ClInclude Include="SelectSorting.h" />
+    <ClInclude Include="ShellSorting.h" />
     <ClInclude Include="Sort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

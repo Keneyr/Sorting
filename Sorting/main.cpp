@@ -5,6 +5,8 @@
 #include "InsertSorting.h"
 #include "SelectSorting.h"
 #include "BubbleSorting.h"
+#include "ShellSorting.h"
+#include "MergeSorting.h"
 
 const int arr[] = {2,5,8,4,9,1,6};
 
@@ -14,7 +16,7 @@ int main()
     int *arrPtr = NULL;
 
     cout << "--------------------------------------" << endl;
-    Sort *baseSort = new InsertSorting(len);
+    Sort *baseSort = new Sort(len);
     baseSort->printArr(arr, len,-1);
     cout << "--------------------------------------" << endl;
 
@@ -51,9 +53,30 @@ int main()
     Sort *bubbleSort = new BubbleSorting(len);
     arrPtr = bubbleSort->Sorting(arr, len);
     bubbleSort->printArr(arrPtr, len, -1);
-    delete selectSort;
+    delete bubbleSort;
     cout << "--------------------------------------" << endl;
 
 
-    system("pause");
+	//////////////////////////////////////////////////////////////////////////
+	///Ï£¶ûÅÅÐò
+	//////////////////////////////////////////////////////////////////////////
+	cout << "--------------------------------------" << endl;
+	Sort *shellSort = new ShellSorting(len);
+	arrPtr = shellSort->Sorting(arr, len);
+	shellSort->printArr(arrPtr, len, -1);
+	delete shellSort;
+	cout << "--------------------------------------" << endl;
+	
+	//////////////////////////////////////////////////////////////////////////
+	///¹é²¢ÅÅÐò
+	//////////////////////////////////////////////////////////////////////////
+	cout << "--------------------------------------" << endl;
+	Sort *mergeSort = new MergeSorting(len);
+	arrPtr = mergeSort->Sorting(arr, len);
+	mergeSort->printArr(arrPtr, len, -1);
+	delete mergeSort;
+
+
+
+	system("pause");
 }

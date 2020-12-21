@@ -23,7 +23,7 @@ int* InsertSorting::Sorting(const int arr[],int len)
         }
         arrPtr[j + 1] = tmp;
         printArr(arrPtr,len,i);
-        cout  << "j: " << j << " , i: " << i << endl << endl;
+        //cout  << "j: " << j << " , i: " << i << endl << endl;
     }
     return arrPtr;
 }

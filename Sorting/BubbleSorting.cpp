@@ -21,9 +21,9 @@ int* BubbleSorting::Sorting(const int arr[], int len)
     {
         for(int j = 0; j < len-1-i; j++)
         {
-            if(arr[j] > arr[j+1])
+            if(arrPtr[j] > arrPtr[j+1])
             {
-                int tmp = arr[j + 1];
+                int tmp = arrPtr[j + 1];
                 arrPtr[j + 1] = arrPtr[j];
                 arrPtr[j] = tmp;
             }

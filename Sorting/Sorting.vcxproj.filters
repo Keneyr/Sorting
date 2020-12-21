@@ -30,6 +30,12 @@
     <ClCompile Include="BubbleSorting.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ShellSorting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeSorting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="global.h">
@@ -45,6 +51,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="BubbleSorting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellSorting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeSorting.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

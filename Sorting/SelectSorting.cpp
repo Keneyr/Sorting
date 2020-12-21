@@ -28,6 +28,7 @@ int* SelectSorting::Sorting(const int arr[], int len)
         int temp = arrPtr[i];
         arrPtr[i] = arrPtr[minIndex];
         arrPtr[minIndex] = temp;
+		printArr(arrPtr, len, i);
     }
 
     return arrPtr;
