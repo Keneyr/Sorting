@@ -36,6 +36,21 @@
     <ClCompile Include="MergeSorting.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="QuickSorting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HeapSorting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CountSorting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BucketSorting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RadixSorting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="global.h">
@@ -57,6 +72,21 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="MergeSorting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSorting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HeapSorting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CountSorting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BucketSorting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RadixSorting.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

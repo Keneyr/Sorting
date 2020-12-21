@@ -111,18 +111,28 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BubbleSorting.cpp" />
+    <ClCompile Include="BucketSorting.cpp" />
+    <ClCompile Include="CountSorting.cpp" />
+    <ClCompile Include="HeapSorting.cpp" />
     <ClCompile Include="InsertSorting.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MergeSorting.cpp" />
+    <ClCompile Include="QuickSorting.cpp" />
+    <ClCompile Include="RadixSorting.cpp" />
     <ClCompile Include="SelectSorting.cpp" />
     <ClCompile Include="ShellSorting.cpp" />
     <ClCompile Include="Sort.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BubbleSorting.h" />
+    <ClInclude Include="BucketSorting.h" />
+    <ClInclude Include="CountSorting.h" />
     <ClInclude Include="global.h" />
+    <ClInclude Include="HeapSorting.h" />
     <ClInclude Include="InsertSorting.h" />
     <ClInclude Include="MergeSorting.h" />
+    <ClInclude Include="QuickSorting.h" />
+    <ClInclude Include="RadixSorting.h" />
     <ClInclude Include="SelectSorting.h" />
     <ClInclude Include="ShellSorting.h" />
     <ClInclude Include="Sort.h" />
