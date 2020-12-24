@@ -70,13 +70,14 @@ int main()
 	//////////////////////////////////////////////////////////////////////////
 	///πÈ≤¢≈≈–Ú
 	//////////////////////////////////////////////////////////////////////////
-	cout << "--------------------------------------" << endl;
-	Sort *mergeSort = new MergeSorting(len);
-	arrPtr = mergeSort->Sorting(arr, len);
-	mergeSort->printArr(arrPtr, len, -1);
-	delete mergeSort;
+    /*cout << "--------------------------------------" << endl;
+    Sort *mergeSort = new MergeSorting(len);
+    arrPtr = mergeSort->Sorting(arr, len);
+    mergeSort->printArr(arrPtr, len, -1);
+    delete mergeSort;*/
 
 
 
 	system("pause");
+    return 0;
 }
