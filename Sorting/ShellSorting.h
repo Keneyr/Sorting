@@ -9,5 +9,4 @@ public:
 	ShellSorting(const ShellSorting &other) : Sort(other) {};
 public:
 	int* Sorting(const int arr[], int len) override;
-
 };
