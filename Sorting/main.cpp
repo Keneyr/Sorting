@@ -7,6 +7,7 @@
 #include "BubbleSorting.h"
 #include "ShellSorting.h"
 #include "MergeSorting.h"
+#include "HeapSorting.h"
 
 const int arr[] = {2,5,8,4,9,1,6};
 
@@ -76,6 +77,15 @@ int main()
     mergeSort->printArr(arrPtr, len, -1);
     delete mergeSort;*/
 
+    //////////////////////////////////////////////////////////////////////////
+    ///∂—≈≈–Ú
+    //////////////////////////////////////////////////////////////////////////
+    cout << "--------------------------------------" << endl;
+    Sort *heapSort = new HeapSorting(len);
+    arrPtr = heapSort->Sorting(arr, len);
+    heapSort->printArr(arrPtr, len, -1);
+    delete heapSort;
+    cout << "--------------------------------------" << endl;
 
 
 	system("pause");
